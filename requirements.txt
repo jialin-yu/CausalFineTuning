@@ -1,0 +1,17 @@
+# Research notebook dependencies (Python 3.11).
+# Transformers and Evaluate versions are specified by the maintainer.
+torch==2.5.1
+transformers==4.42.0
+datasets==2.21.0
+accelerate==0.34.2
+evaluate==0.4.2
+numpy==1.26.4
+# Keep the dataset/plotting stack compatible with NumPy 1.x.
+pandas==2.2.3
+pyarrow==17.0.0
+scikit-learn==1.5.2
+matplotlib==3.9.2
+scipy==1.14.1
+seaborn==0.13.2
+jupyterlab==4.3.1
+ipykernel==6.29.5
